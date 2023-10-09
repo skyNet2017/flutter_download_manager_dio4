@@ -1,4 +1,4 @@
-Flutter Download Manager
+Flutter Download Manager dio4
 ===========
 
 [![pub package](https://img.shields.io/pub/v/flutter_download_manager.svg)](https://pub.dev/packages/flutter_download_manager)
@@ -8,6 +8,9 @@ Flutter Download Manager
 
 Overview
 ========
+
+>  Depend on dio 4
+
 Flutter Download Manager is a Cross-Platform file downloader with Parallel and Batch Download support. Manage download tasks by url and be notified of status and their progress. Pause, Cancel, Queue and Resume Downloads. 
 
 This package was made as I felt like there are no download managers in flutter, specially with desktop support. 
@@ -109,7 +112,7 @@ await task.whenDownloadComplete();
 var dl = DownloadManager();
 
 dl.cancelDownload(url5);
-```
+  ```
 
 ### Pause a task
 
@@ -117,7 +120,7 @@ dl.cancelDownload(url5);
 var dl = DownloadManager();
 
 dl.pauseDownload(url5);
-```
+  ```
 
 ### Resume a task
 
@@ -125,7 +128,7 @@ dl.pauseDownload(url5);
 var dl = DownloadManager();
 
 dl.resumeDownload(url5);
-```
+  ```
 
 ### Download in Batch
 
@@ -172,7 +175,7 @@ urls.add(url5);
 urls.add(url);
 
 dl.cancelDownloads(urls);
-```
+  ```
 ### Get Batch Download Progress
 
 ```dart
