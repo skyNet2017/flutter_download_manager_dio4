@@ -5,7 +5,9 @@ import 'package:collection/collection.dart';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_download_manager/flutter_download_manager.dart';
+
+import '../flutter_download_manager.dart';
+
 
 class DownloadManager {
   final Map<String, DownloadTask> _cache = <String, DownloadTask>{};

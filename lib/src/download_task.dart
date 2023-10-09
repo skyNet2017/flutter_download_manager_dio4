@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_download_manager/flutter_download_manager.dart';
+import '../flutter_download_manager.dart';
 
 class DownloadTask {
   final DownloadRequest request;
